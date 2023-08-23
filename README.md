@@ -8,4 +8,4 @@ Great for testing simple deployments to the cloud
 
 `npm start`
 
-It includes a simple test as well as Github workflow that publishes a Docker Image to a Gitlab Docker Registry
+It includes a simple test as well as a Github workflow that publishes a Docker Image to a Gitlab Docker Registry
