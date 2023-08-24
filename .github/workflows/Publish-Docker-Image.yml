@@ -32,5 +32,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t registry.gitlab.com/${{ secrets.PROJECT_NAME}}/${{ secrets.REPO_NAME}}:nodejs-example-${{ github.sha }} .
-          docker push registry.gitlab.com/${{ secrets.PROJECT_NAME}}/${{ secrets.REPO_NAME}}:nodejs-example-${{ github.sha }}     
+          docker build -t registry.gitlab.com/${{ secrets.PROJECT_NAME}}/${{ secrets.REPO_NAME}}:hello-world-app-${{ github.sha }} .
+          docker push registry.gitlab.com/${{ secrets.PROJECT_NAME}}/${{ secrets.REPO_NAME}}:hello-world-app-${{ github.sha }}     
