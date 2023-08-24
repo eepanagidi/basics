@@ -1,1 +1,1 @@
-key_name = "wiztech-eks-ssh"
+ssh_key_name = "wiztech-eks-ssh"
